@@ -1,0 +1,732 @@
+/*
+Theme Name: University Hub Child
+Description: Perfect for small businesses, Circumference Lite is a responsive, exceptional theme with clean design and a significant list of features like unlimited colours, full width or boxed page layouts, extensive theme options using the WordPress Customizer, font based icons, custom gallery styling, a large selection of beautifully styled Post Formats, page templates, several site title/logo options, translation ready, retina ready, built-in social networking, and a child theme that you can install and use for customization, plus much more!
+
+Template: university-hub
+Version: 1.0.0
+Author: Webfills
+Tags: custom-colors, white, light, two-columns, fluid-layout, responsive-layout, fixed-layout, custom-background, custom-header, custom-menu, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+License: GNU General Public License v3
+License URI: license.txt 
+
+Copyright: 2017 webfills.co.in
+
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+body { }
+.main-navigation ul li.menu-item-has-children a, .main-navigation ul li.page_item_has_children a {
+    padding-right: 13px;
+}
+.main-navigation ul li.menu-item-has-children > a::after, .main-navigation ul li.page_item_has_children > a::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    margin-left: 10px;
+    margin-right: 0;
+    position: absolute;
+    right: 0px;
+    top: 12px;
+}
+/*#masthead{
+	background: #800000 none repeat scroll 0 0;
+}
+ */
+ 
+ 
+ /*#tophead {
+	 background-color:#ff6000;
+ }
+ 
+ .top-news-title{
+	background: black none repeat scroll 0 0; 
+ }
+ 
+ .top-news-title::after {
+    border-left: 16px solid black;
+   }
+   
+
+   
+.main-navigation li a:hover, .main-navigation li.current-menu-item a, .main-navigation li.current_page_item a, .main-navigation li:hover > a{
+	background: #e6bfea  none repeat scroll 0 0;
+	color:#000;
+}*/
+.wpcf7-form {
+     max-width: none !important; 
+}
+
+
+.main-navigation ul ul{
+	   
+    padding: 5px 10px 0;
+	
+}
+
+
+.main-navigation ul li a {
+	padding: 11px;
+}
+
+
+#main-slider .cycle-caption .caption-wrap{
+	display:none;
+}
+
+.custom-logo-link img,
+	body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
+	body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+		max-width: 103px;
+	}
+
+	.title-tagline-hidden.home.has-header-image .custom-logo-link img,
+	.title-tagline-hidden.home.has-header-video .custom-logo-link img {
+		max-height: 52px;
+	}
+	
+	
+#footer-widgets{
+	background: #253b80 none repeat scroll 0 0;
+}
+#colophon{
+	background: black none repeat scroll 0 0;
+	padding: 4px 0;
+}
+#colophon a{
+	color: #ff6000;
+}	
+	
+.page-id-4 #content{
+display	:none;
+}
+	
+	
+
+#footer-widgets {
+   padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+#main-slider img{
+	height:450px;
+}
+
+#front-page-home-sections .home-section-call-to-action{
+	    background: #e6bfea none repeat scroll 0 0;
+}
+
+#front-page-home-sections  .home-section-call-to-action p, #front-page-home-sections .home-section-call-to-action p{
+	color:#000;
+}
+
+#front-page-home-sections .home-section-call-to-action .section-title{
+	color:#000;
+}
+
+
+button, a.button, input[type="button"], input[type="reset"], input[type="submit"]{
+	padding: 10px 25px;
+}
+
+ #primary{
+	    width: 50%;
+}
+	
+	.sidebar{
+		 width: 50%;
+}
+
+
+.home-section-latest-news{
+	padding-top: 20px;
+}
+
+
+#front-page-home-sections > div, #university-hub-front-page-widgets{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.home-section-news-and-events .block-meta{
+	display:none;
+}
+
+
+button, a.button, input[type="button"], input[type="reset"], input[type="submit"]{
+	    background: #ff6000 none repeat scroll 0 0;
+}
+
+
+/* #breadcrumb {
+background: #e6eabf;
+    color: #800000;
+
+}
+#breadcrumb a, #breadcrumb .breadcrumb-trail li::after{
+	 color: #800000;
+}
+*/
+
+
+.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img, body.home.title-tagline-hidden.has-header-video .custom-logo-link img{
+	max-width: 100%;
+}
+
+
+.site-branding img{
+	margin-top:0px;
+}
+
+
+.site-header{
+	padding: 5px 0 0;
+}
+
+
+#quick-contact{
+	margin-top: 25px;
+}
+
+
+/*#quick-contact a, #quick-contact span{
+	color: #e6eabf;
+}
+
+#quick-contact li::before{
+	color: #e6eabf;
+} */
+footer.entry-footer{
+	display:none;
+}
+
+#main-slider::before{
+	background:none;
+}
+
+#main-slider::after{
+	background:none;
+}
+
+
+.home-section-news-and-events h2{
+	font-size: 29px;
+}
+
+#site-identity{
+	display:none;
+}
+
+
+
+
+.home-section-news-and-events .custom-entry-date span.entry-day{
+	padding: 5px 0 13px;
+}
+
+
+
+
+button:hover, a.button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+color:black;
+background-color:#fff;
+border-color: transparent;
+}
+
+
+.postid-20 .nav-previous {
+display:none;
+}
+
+
+.postid-20 .nav-links{
+display:none;
+}
+
+.postid-20 #respond{
+display:none;
+}
+
+.car-caption p{
+display:none;
+}
+.home-section-news-and-events p{
+padding-top: 9px;
+}
+
+.postid-108 .nav-links{
+display:none;
+}
+
+.postid-108 #respond{
+display:none;
+}
+
+.postid-97 .nav-links{
+display:none;
+}
+.postid-97 #respond{
+display:none;
+}
+
+.postid-95 .nav-links{
+display:none;
+}
+
+.postid-95 #respond{
+display:none;
+}
+
+
+.postid-207 .nav-links{
+display:none;
+}
+
+.postid-207 #respond{
+display:none;
+}
+
+.postid-329 .site-main .post-navigation{
+display:none;
+}
+
+.postid-329 #respond{
+display:none;
+}
+
+.postid-326 .nav-links{
+display:none;
+}
+
+.postid-326 #respond{
+display:none;
+}
+
+.page-id-317 #cp-box h3 {
+display:none;
+}
+
+
+.page-id-317 #cp-box .two{
+width:36% !important;
+}
+
+.page-id-317 #comments {
+display:none;
+}
+#cp-box .cp-box ul li{
+font-size:20px !important;
+}
+
+.chpcs_foo_content .chpcs_title{
+	font-size:20px;
+}
+
+#front-page-home-sections .home-section-call-to-action{
+padding-top:20px;
+
+padding-bottom:0px;
+}
+
+
+/* departments */
+
+.hvr-bob,
+.hvr-buzz,
+.hvr-wobble-horizontal,
+.hvr-wobble-top {
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 0 0 1px transparent
+}
+
+@-webkit-keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg)
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg)
+    }
+}
+
+@keyframes hvr-buzz {
+    50% {
+        -webkit-transform: translateX(3px) rotate(2deg);
+        transform: translateX(3px) rotate(2deg)
+    }
+    100% {
+        -webkit-transform: translateX(-3px) rotate(-2deg);
+        transform: translateX(-3px) rotate(-2deg)
+    }
+}
+
+.hvr-buzz {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0)
+}
+
+.hvr-buzz:active,
+.hvr-buzz:focus,
+.hvr-buzz:hover {
+    -webkit-animation-name: hvr-buzz;
+    animation-name: hvr-buzz;
+    -webkit-animation-duration: .15s;
+    animation-duration: .15s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite
+}
+
+@-webkit-keyframes hvr-wobble-top {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg)
+    }
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg)
+    }
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg)
+    }
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg)
+    }
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg)
+    }
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0)
+    }
+}
+
+@keyframes hvr-wobble-top {
+    16.65% {
+        -webkit-transform: skew(-12deg);
+        transform: skew(-12deg)
+    }
+    33.3% {
+        -webkit-transform: skew(10deg);
+        transform: skew(10deg)
+    }
+    49.95% {
+        -webkit-transform: skew(-6deg);
+        transform: skew(-6deg)
+    }
+    66.6% {
+        -webkit-transform: skew(4deg);
+        transform: skew(4deg)
+    }
+    83.25% {
+        -webkit-transform: skew(-2deg);
+        transform: skew(-2deg)
+    }
+    100% {
+        -webkit-transform: skew(0);
+        transform: skew(0)
+    }
+}
+
+.hvr-wobble-top {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transform-origin: 0 100%;
+    transform-origin: 0 100%
+}
+
+.hvr-wobble-top:active,
+.hvr-wobble-top:focus,
+.hvr-wobble-top:hover {
+    -webkit-animation-name: hvr-wobble-top;
+    animation-name: hvr-wobble-top;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+@-webkit-keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px)
+    }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px)
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px)
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px)
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px)
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+@keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px)
+    }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px)
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px)
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px)
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px)
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)
+    }
+}
+
+.hvr-wobble-horizontal {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0)
+}
+
+.hvr-wobble-horizontal:active,
+.hvr-wobble-horizontal:focus,
+.hvr-wobble-horizontal:hover {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1
+}
+
+@-webkit-keyframes hvr-bob {
+    0%,
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px)
+    }
+}
+
+@keyframes hvr-bob {
+    0%,
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+    50% {
+        -webkit-transform: translateY(-4px);
+        transform: translateY(-4px)
+    }
+}
+
+@-webkit-keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+@keyframes hvr-bob-float {
+    100% {
+        -webkit-transform: translateY(-8px);
+        transform: translateY(-8px)
+    }
+}
+
+.hvr-bob {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0)
+}
+
+.hvr-bob:active,
+.hvr-bob:focus,
+.hvr-bob:hover {
+    -webkit-animation-name: hvr-bob-float, hvr-bob;
+    animation-name: hvr-bob-float, hvr-bob;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate
+}
+
+@-webkit-keyframes scroll {
+    100% {
+        background-position: 0 -3000px
+    }
+}
+
+@-moz-keyframes scroll {
+    100% {
+        background-position: 0 -3000px
+    }
+}
+
+@-o-keyframes scroll {
+    100% {
+        background-position: 0 -3000px
+    }
+}
+
+/*@-ms-keyframes scroll {
+    100% {
+        background-position: 0 -3000px
+    }
+}
+
+@keyframes scroll {
+    100% {
+        background-position: 0 -3000px
+    }
+} */
+
+.dez-move-image {
+    -webkit-animation: 100s scroll infinite linear;
+    -moz-animation: 100s scroll infinite linear;
+    -o-animation: 100s scroll infinite linear;
+    -ms-animation: 100s scroll infinite linear;
+    animation: 100s scroll infinite linear
+}
+
+
+.border-1{
+	border: 2px solid black;
+}
+
+.skew-triangle.left-top:after {
+    top: 5px;
+    left: 5px;
+}
+
+.skew-triangle:after, .dez-head-bx.skew-triangle.right-top:after {
+    border-top-color: black !important;
+}
+
+.skew-triangle:after {
+    border-left: 0 solid rgba(0, 0, 0, 0);
+    border-right: 15px solid rgba(0, 0, 0, 0);
+    border-top: 15px solid black;
+    content: "";
+    position: absolute;
+}
+
+.p-a15 {
+    padding: 15px;
+}
+
+.m-b30 {
+    margin-bottom: 30px;
+}
+
+#front-page-home-sections > div, #university-hub-front-page-widgets{
+	padding-top: 0px;
+}
+
+
+.site-info{
+	display:none;
+}
+
+.navigation{
+	display:none;
+}
+
+.slick-arrow{
+	display:none !important;
+}
+
+.scrollup {
+    background-color: #ff6000;
+}
+
+.recent-events{
+	    border: 2px solid #253b80;
+    padding: 20px;
+}
+
+.slick-dots{
+	display:none !important;
+}
+.wpsisac-slick-carousal.design-6{
+	    margin-bottom: 0px !important;
+}
+
+.recruiter{
+	font-family: cursive;
+    text-decoration: underline;
+    
+}
+
+#wpsm_counter_b_row_130 .wpsm_counterbox {
+	margin-bottom: 0px !important;
+}
+
+.sgjvs_widget_excerpt{
+	text-align:justify;
+}
+
+.news-content p{
+	text-align:justify;
+}
+
+#footer-widgets .widget-title{
+	color: #ff6000;
+}
+
+h2{
+	color: #253b80;
+}
+.color_black{
+	color:black;
+}
+
+.custom-button{
+	margin:0px;
+	    background-color: #ff6000;
+}
+.home-section-news-and-events .news-content{
+	padding-left:0px;
+}
+
+
+
+
+
